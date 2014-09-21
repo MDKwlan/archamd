@@ -1,6 +1,6 @@
 cp pacman.conf /etc/pacman.conf
 cp radeon.conf /etc/modules-load.d/
-cp mkinitcipio.conf /etc/mkinitcipio.conf
+cp mkinitcpio.conf /etc/mkinitcpio.conf
 pacman-key -r 653C3094
 pacman-key --lsign-key 653C3094
 pacman -Syy
