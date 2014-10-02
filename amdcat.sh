@@ -1,4 +1,6 @@
-cp pacman.conf /etc/pacman.conf #This pacman.conf has multilib xorg116 and catalysts repo
+#!/bin/bash
+
+cp pacman.conf /etc/pacman.conf #This pacman.conf has multilib xorg115 and catalysts repo
 cp radeon.conf /etc/modules-load.d/ #This will add the blacklist for the radeon FOSS driver and add fglxr to start
 cp mkinitcpio.conf /etc/mkinitcpio.conf #This will add nomodeset to disable KMS.
 pacman-key -r 653C3094 #Vi0l0s key for verifying the new repos added in pacman.conf

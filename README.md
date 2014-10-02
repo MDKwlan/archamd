@@ -2,10 +2,10 @@ archamd
 =======
 
 Adding unoffical Arch repos for AMD drivers
-This is a quick and dirty way of adding new repos siging them updating pacman initalizing xorg to function and to
+This is a quick and dirty way of adding new repos signing them updating pacman initializing xorg to function and to
 enable hook on reboot.
 
-The pacman.conf is based off Cential North American location so if your mirror list is set to another country
+The pacman.conf is based off Central North American location so if your mirror list is set to another country
 you might notice that speeds are slow. Feel free to edit or comment out the .conf and only take what was changed.
 
 The pacman.conf also has multilib support. This is not needed for pure64bit machines but if you're intention is to ever
