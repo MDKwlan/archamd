@@ -1,6 +1,14 @@
 archamd
 =======
 
+Experment. Trying a new method of doing this. First goal
+is to remove the four deps of files. I'm assuming
+that something can be done with sed to add
+the lines that need to be added.
+
+
+
+
 Adding unoffical Arch repos for AMD drivers
 This is a quick and dirty way of adding new repos signing them updating pacman initializing xorg to function and to
 enable hook on reboot.
