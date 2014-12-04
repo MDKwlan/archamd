@@ -13,10 +13,6 @@ run steam you're going to need multilib support. Multilib is not needed for x86 
 to be no harm in enabling it. If you are running x86 please comment out the libs that are listed in the pacman -S because
 they are not needed in your build of Arch.
 
-
-The mkinitcpio.conf is just a normal mkinitcpio.conf with nomodeset enabled which is needed to disable KMS.
-The Arch wiki suggests that KMS needs to be disabled to prevent bugs with the drivers.
-
 The Radeon.conf is for blacklisting the FOSS drivers and enabling fglrx. You should get an error on boot saying that 
 the FOSS drivers couldnt be loaded which is the whole point of disabling it.
 
